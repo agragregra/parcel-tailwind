@@ -4,7 +4,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --no-source-maps",
-    "build": "parcel build --no-source-maps"
+    "build": "parcel build --no-source-maps --public-url ."
   },
   "keywords": [],
   "author": "WebDesign Master",
