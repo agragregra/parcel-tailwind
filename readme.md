@@ -44,7 +44,7 @@
 <p>In "src/parts/component.html":</p>
 
 <pre>
-&lt;Your Name: {{ name }}&gt;
+Your Name: {{ name }}
 Your Photo: &lt;img src="{{ img }}?as=webp"&gt;
 </pre>
 
