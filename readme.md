@@ -45,7 +45,7 @@
 
 <pre>
 &lt;Your Name: {{ name }}&gt;
-&lt;Your Photo: &lt;img src="{{ img }}?as=webp"&gt;&gt;
+Your Photo: &lt;img src="{{ img }}?as=webp"&gt;
 </pre>
 
 <h4>Include parts of Preprocessor code:</h4>
