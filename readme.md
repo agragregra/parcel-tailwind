@@ -50,7 +50,7 @@
 
 <h4>Include parts of Preprocessor code:</h4>
 
-<p>All included parts of preprocessor files placed in the folder "styles/blocks/*". Any number of preprocessor files can be placed here and in any order. They will be automatically included in the "styles/main.*" file and processed by the selected preprocessor.</p>
+<p>All included parts of preprocessor files placed in the folder "styles/blocks/*". Any number of preprocessor files can be placed here and in any order. They will be automatically included in the "styles/main.*" file and processed.</p>
 
 <h2>Included features</h2>
 
