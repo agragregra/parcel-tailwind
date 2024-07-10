@@ -2,7 +2,7 @@
 <p>Lightweight Parcel Template with Tailwind</p>
 
 <p>
-	<img src="https://raw.githubusercontent.com/agragregra/pt/master/src/img/parcel-tailwind.jpg" alt="Parcel HTML Template with Tailwind">
+	<img src="https://raw.githubusercontent.com/agragregra/parcel-tailwind/master/src/img/parcel-tailwind.jpg" alt="Parcel HTML Template with Tailwind">
 </p>
 
 <p><strong>Parcel Tailwind</strong> - lightweight startup environment with <strong>Parcel</strong>, <strong>Preprocessors (Sass, Scss)</strong>, <strong>PostCSS</strong>, <strong>Autoprefixer</strong>, <strong>HTML imports</strong> (posthtml-include), <strong>npm run build</strong>, <strong>imagemin + webp</strong>.</p>
