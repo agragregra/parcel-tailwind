@@ -269,6 +269,10 @@ img, video {
   max-width: 24rem;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -327,6 +331,10 @@ img, video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -451,6 +459,28 @@ img, video {
 
   .sm\:text-left {
     text-align: left;
+  }
+}
+
+@media (width >= 1280px) {
+  .xl\:ml-0 {
+    margin-left: 0;
+  }
+
+  .xl\:ml-\[15\.5rem\] {
+    margin-left: 15.5rem;
+  }
+
+  .xl\:mr-\[15\.5rem\] {
+    margin-right: 15.5rem;
+  }
+
+  .xl\:max-w-none {
+    max-width: none;
+  }
+
+  .xl\:pr-16 {
+    padding-right: 4rem;
   }
 }
 
