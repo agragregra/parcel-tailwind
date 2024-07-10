@@ -11,7 +11,7 @@
 
 <p>Clone into the current folder with remove all unnecessary (one command):</p>
 
-<pre>git clone https://github.com/agragregra/pt .; rm -rf trunk .gitignore readme.md .git .editorconfig</pre>
+<pre>git clone https://github.com/agragregra/pt .; rm -rf trunk .gitignore readme.md .git</pre>
 
 <ol>
 	<li>Clone or <a href="https://github.com/agragregra/pt/archive/master.zip">Download</a> <strong>Parcel Tailwind</strong> from GitHub</li>
