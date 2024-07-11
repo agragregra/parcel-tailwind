@@ -5,7 +5,7 @@
 	<img src="https://raw.githubusercontent.com/agragregra/parcel-tailwind/master/src/img/parcel-tailwind.jpg" alt="Parcel HTML Template with Tailwind">
 </p>
 
-<p><strong>Parcel Tailwind</strong> - lightweight startup environment with <strong>Parcel</strong>, <strong>Preprocessors (Sass, Scss)</strong>, <strong>PostCSS</strong>, <strong>Autoprefixer</strong>, <strong>HTML imports</strong> (posthtml-include), <strong>npm run build</strong>, <strong>imagemin + webp</strong>.</p>
+<p><strong>Parcel Tailwind</strong> - lightweight startup environment with <strong>Parcel</strong>, <strong>HTML imports</strong> (posthtml-include), <strong>npm run build</strong>, <strong>imagemin + webp</strong>.</p>
 
 <h2>How to use Parcel Tailwind</h2>
 
@@ -24,17 +24,14 @@
 <h4>src's & dist's:</h4>
 
 <ol>
-	<li>All <strong>src | dist scripts</strong> located in <strong>src/js/app.js | dist/js/app.js</strong></li>
-	<li><strong>Main Sass|Scss</strong> src files located in <strong>src/styles/</strong></li>
-	<li>All <strong>compressed styles</strong> located in <strong>dist/css/main.css</strong></li>
-	<li>Project <strong>styles config</strong> placed in <strong>src/styles/_config.sass</strong></li>
-	<li>All <strong>src images</strong> placed in <strong>src/img/</strong> folder</li>
-	<li>All <strong>compressed images</strong> placed in <strong>dist/img/</strong> folder</li>
+	<li>All <strong>src | dist scripts</strong> located in <strong>src/js/ | dist/js/</strong></li>
+	<li>All <strong>src | dist styles</strong> located in <strong>src/css/ | dist/css/</strong></li>
+	<li>All <strong>src | dist images</strong> located in <strong>src/img/ | dist/img/</strong></li>
 </ol>
 
 <h4>Include parts of HTML code:</h4>
 
-<p>Include parts of html code is implemented using posthtml-include. You can import any part of the code using construction in any of html files:</p>
+<p>Include parts of html code is implemented using posthtml-include. You can import any part of code using construction in any of html files:</p>
 
 <pre>&lt;include src="parts/component.html" locals='{
 	"name": "Ivan Vasilievich",
@@ -47,10 +44,6 @@
 Your Name: {{ name }}
 Your Photo: &lt;img src="{{ img }}?as=webp"&gt;
 </pre>
-
-<h4>Include parts of Preprocessor code:</h4>
-
-<p>All included parts of preprocessor files placed in the folder "styles/blocks/*". Any number of preprocessor files can be placed here and in any order. They will be automatically included in the "styles/main.*" file and processed.</p>
 
 <h2>Included features</h2>
 
