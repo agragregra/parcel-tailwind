@@ -1,5 +1,5 @@
 {
-  "name": "parcel-starter",
+  "name": "parcel-tailwind",
   "version": "1.0.0",
   "source": "src/index.html",
   "scripts": {
@@ -9,9 +9,11 @@
   "keywords": [],
   "author": "WebDesign Master",
   "license": "ISC",
-  "description": "Lightweight Parcel Template",
+  "description": "Lightweight Parcel Template with Tailwind",
   "devDependencies": {
     "@agragregra/parcel-namer-beautify": "^1.0.1",
+    "@parcel/transformer-sass": "^2.12.0",
+    "node-sass-glob-importer": "^5.3.3",
     "parcel": "^2.12.0",
     "postcss": "^8.4.39",
     "posthtml-include": "^2.0.1",

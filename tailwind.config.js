@@ -7,7 +7,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'accent': 'var(--color-accent)', // app/css/main.css
+				'accent': 'var(--color-accent)', // app/styles/_config.sass
 			},
 		},
 	},
