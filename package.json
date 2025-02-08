@@ -12,10 +12,11 @@
   "description": "Lightweight Parcel Template with Tailwind",
   "devDependencies": {
     "@agragregra/parcel-namer-beautify": "^1.0.1",
+    "@tailwindcss/postcss": "^4.0.4",
     "parcel": "^2.13.3",
     "postcss": "^8.5.1",
     "posthtml-include": "^2.0.1",
     "sharp": "^0.33.5",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^4.0.4"
   }
 }

@@ -1,7 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@variant dark (&:where(.dark, .dark *));
 
-:root {
+@theme {
 	--color-accent: orange;
+}
+
+body {
+	@apply dark:bg-gray-900 dark:text-white;
 }
