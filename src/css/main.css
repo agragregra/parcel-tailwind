@@ -2,9 +2,9 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-	--color-accent: orange;
+  --color-accent: orange;
 }
 
 body {
-	@apply dark:bg-gray-900 dark:text-white;
+  @apply dark:bg-gray-900 dark:text-white;
 }
